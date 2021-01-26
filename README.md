@@ -9,8 +9,10 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - Explain function scope
+
 - Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
 
+  
 ## Introduction
 
 This challenge focuses on both scope and closures.
@@ -43,6 +45,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+    A closure is when a variable is not declared inside a function and has to be referenced from the parent.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,6 +69,7 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  within the console.log of the personalDice function because name is called but not defined inside the function
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 c. What is the lexical scope of `newRoll`? 
 
